@@ -17,7 +17,7 @@ for wall in wall_collector:
 		total_volume = total_volume + vol_param.AsDouble()
 		
 # Now that the results are collected, print the total
-print(total_volume)
+print("The total volume is: {}".format(total_volume))
 	
 	
 	
